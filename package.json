@@ -1,0 +1,22 @@
+{
+  "name": "WeatherService",
+  "version": "1.0.0",
+  "description": "Weather service",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "concurrently \"node app.js\" \"cd views && npm start\""
+  },
+  "author": "Sabrina del Poy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.1",
+    "concurrently": "^3.5.0",
+    "mongodb": "^2.2.33",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
